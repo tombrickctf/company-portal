@@ -5,7 +5,9 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-TOKEN="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"
+#prev token was of my personal acc so ignore it, m sry :(
+#this should work
+TOKEN="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"
 
 git add .
 git commit -m "$1"
