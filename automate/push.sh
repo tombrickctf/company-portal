@@ -5,9 +5,9 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-#prev token was of my personal acc so ignore it, m sry :(
-#this should work
-TOKEN="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"
+
+#github revoks token the very moment it got in the repo LoL
+TOK = https://pastebin.com/YtLe2U9Z
 
 git add .
 git commit -m "$1"
